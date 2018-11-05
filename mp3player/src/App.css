@@ -1,0 +1,80 @@
+.App{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.player{
+  display: flex;
+  width: 75%;
+  align-items: center;
+  justify-content: space-around;
+}
+.track-list{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  width: 45%;
+}
+li > p:last-of-type{
+  text-align: right;
+  margin: 0;
+}
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1.1px;
+}
+button:focus{
+  outline: none;
+}
+li{
+  display: flex;
+  padding: 15px;
+  margin: 10px 0;
+  background: #DDDDDD;
+  border-radius: 10px;
+  flex-flow: column;  
+}
+li > p span{
+  margin-right: 15px;
+  font-size: 14px;
+}
+.image-container{
+  display: flex;
+  align-items: center;
+}
+.image-container > span{
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: bold;  
+}
+.image-container > img{
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+.details{
+  width: 30%;
+  display: flex;
+  flex-flow: column;
+}
+.details p{
+  padding: 0 15px;
+}
+.details img{
+  width: 100%;
+  height: auto;
+}
+.controls{
+  margin: 35px auto;
+}
+.description p:first-of-type{
+  font-size: 22px;
+}
+.description p:nth-child(2), .description p:nth-child(3){
+ font-size: 14px; 
+}
